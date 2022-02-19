@@ -1,0 +1,20 @@
+---
+layout: home
+---
+<h1>Greetings, fellow nerd!</h1>
+<p>
+    If you happened to bump into this site, seems like you also enjoy hacking,
+    burning electronics for fun, making and playing games and occasionally, shed a
+    nostalgic tear about some retro goodness.
+</p>
+
+<p>
+    <i>Stay awhile and read...</i>
+</p>
+
+<h2>Making a game for the Nintendo Entertainment System</h2>
+<ol>
+    {% for page in site.nesdev %}
+        <li><a href="{{page.url}}">{{page.title}}</a>
+    {% endfor %}
+</ol>
