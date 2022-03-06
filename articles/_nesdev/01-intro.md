@@ -67,11 +67,11 @@ hardware programming, than diving head-first into the Windows Driver Frameworks
 API, isn't it?
 
 During the development process, I'll make use of some existing tools, made by
-the community of enthusiasts specifically for aiding in NES development
-(commonly called *NESdev*), others will be made from scratch by me for this
-project. For example, the music will be composed using existing tools, such as
-[FamiTracker](http://famitracker.com/), but for building the levels I'll make my
-own level editor, tailored specifically for the game.
+the big community of enthusiasts for aiding in NES development (commonly called
+*NESdev*), others will be made from scratch by me for this project. For example,
+the music will be composed using existing tools, such as
+[FamiTracker](http://famitracker.com/), but for building the game levels I'll
+make my own level editor, tailored specifically for this game.
 
 All the software and assets I'm going to make throughout this series, including
 the game, will be made open source and available on GitHub, so you can explore
