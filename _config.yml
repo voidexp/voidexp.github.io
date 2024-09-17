@@ -19,14 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: voidexp
-
 author: Ivan Nikolaev
-email: voidexp@gmail.com
-
-description: >- # this means to ignore newlines until "baseurl:"
-  Making games for a fistful of likes.
+timezone: Europe/Vilnius
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://voidexp.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://voidexp.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: voidexp
 github_username:  voidexp
 linkedin_username: voidexp
@@ -36,20 +32,6 @@ instagram_username: voidexp
 theme: minima
 plugins:
   - jekyll-feed
-
-header_pages:
-  - about.html
-
-collections_dir: articles
-
-collections:
-  nesdev:
-    output: true
-    permalink: /:collection/:name
-  hacking:
-    output: true
-    permalink: /:collection/:name
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
