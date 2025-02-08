@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  img.pic {
+    width: 120px;
+    max-width: 120px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: $color-link;
+  }
+}
+
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about > img.pic {
+    max-width: 200px;
+    width: 200px;
+    margin-right: 20px;
+  }
+}

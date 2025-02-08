@@ -22,14 +22,9 @@ title: voidexp
 author: Ivan Nikolaev
 timezone: Europe/Vilnius
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://voidexp.me" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: voidexp
-github_username:  voidexp
-linkedin_username: voidexp
-instagram_username: voidexp
+url: "http://voidexp.me" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
