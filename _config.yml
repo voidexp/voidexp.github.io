@@ -23,10 +23,13 @@ author: Ivan Nikolaev
 timezone: Europe/Vilnius
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://voidexp.me" # the base hostname & protocol for your site, e.g. http://example.com
-
+source: "./"
 # Build settings
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir: assets/css
 
 # Exclude from processing.
 # The following items will not be processed, by default.
