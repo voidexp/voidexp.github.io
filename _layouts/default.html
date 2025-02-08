@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{{page.title}}</title>
+  <title>{{site.title}} | {{page.title}}</title>
   <meta name="description" content="{{brief}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,7 +18,7 @@
     {{ content }}
     </main>
     <footer>
-        &copy; Ivan Nikolaev
+        &copy; {{site.time | date: '%Y'}} Ivan Nikolaev
     </footer>
 </body>
 

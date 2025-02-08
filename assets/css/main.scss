@@ -10,9 +10,9 @@
  * and the H5BP dev community and team.
  */
 
-@import './normalize.css';
-@import './colors.scss';
-@import './fonts.scss';
+@import 'normalize.css';
+@import 'colors.scss';
+@import 'fonts.scss';
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -34,6 +34,10 @@ a {
   color: $color-link;
   text-decoration: none;
   font-weight: 600;
+}
+
+code {
+  font-family: 'RobotoMono','Source Code Pro','Fira Code','Courier New', Courier, monospace;
 }
 
 /*
@@ -282,4 +286,4 @@ textarea {
   }
 }
 
-@import './layout.scss';
+@import 'layout.scss';
